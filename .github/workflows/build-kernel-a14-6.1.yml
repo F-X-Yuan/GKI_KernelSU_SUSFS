@@ -133,9 +133,9 @@ jobs:
           # Initialize and sync kernel source
           echo "Initializing and syncing kernel source..."
           FORMATTED_BRANCH="${{ matrix.android_version }}-${{ matrix.kernel_version }}-${{ matrix.os_patch_level }}"
-          $REPO init --depth=1 --u https://android.googlesource.com/kernel/manifest -b common-${FORMATTED_BRANCH} --repo-rev=v2.16
+          $REPO init --depth=1 --u https://github.com/OnePlusOSS/android_kernel_common_oneplus_sm8650/tree/oneplus/sm8650_v_15.0.0_ace_3_pro
           
-          REMOTE_BRANCH=$(git ls-remote https://android.googlesource.com/kernel/common ${FORMATTED_BRANCH})
+          REMOTE_BRANCH=$(git ls-remote https://github.com/OnePlusOSS/android_kernel_common_oneplus_sm8650
           DEFAULT_MANIFEST_PATH=.repo/manifests/default.xml
 
           # Check if branch is deprecated
