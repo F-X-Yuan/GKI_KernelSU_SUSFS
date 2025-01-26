@@ -1,4 +1,4 @@
-# Wild Kernel for Android GKI 2.0 Devices
+# Wild Plus Kernel for Android GKI 2.0 Devices
 
 ## Your warranty is no longer valid!
 
@@ -54,7 +54,7 @@ Flashing this kernel will void your warranty, and there is always a risk of bric
 # To-DO
 
 - [X] Build AnyKernel3 zips
-- [ ] Make GitHub Actions
+- [X] Make GitHub Actions
 
 ---
 
